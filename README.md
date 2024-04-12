@@ -1,3 +1,4 @@
-# jiyaChauhan
+# First Code demo
 This is my first repository
-Jigyasha Chauhan
+<br/>
+Auther - Jigyasha Chauhan
