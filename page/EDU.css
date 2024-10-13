@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: gainsboro;
+    box-shadow: 0 5px 8px gainsboro;
+    display: flex;
+    align-items: center;
+
+}
+nav>ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+
+}
+nav>.Pages{
+    height: 50px;
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+nav>.Pages>li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 8px;
+}
+nav>.Pages>li:first-child{
+    margin-right: auto;
+    font-size: 600;
+    font-size: 13px;
+}
+nav>.Pages>li:hover{
+    /* background-color: black; */
+    color: blue;
+    cursor: pointer;
+}
+nav>.Pages>li:first-child:hover{
+    background-color: transparent;
+    color: black;
+}
+section{
+    height: 25px;
+    width: 100%;
+    background-color: rgb(80, 109, 109);
+    display: flex;
+}
+section>h6{
+    padding : 5px;
+    margin: 5px;
+}  
+section>.setImage{
+    height: 25px;
+    width: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px;
+    display: flex;
+
+}
+.setImage>img{
+    height: 20px;
+    width: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+figure{
+    height: 100%;
+    width: 100%;
+}
+figure>img{
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
